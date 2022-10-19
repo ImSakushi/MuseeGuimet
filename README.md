@@ -1,1 +1,1 @@
-# MusGui
+# MusGui - Groupe Puma
