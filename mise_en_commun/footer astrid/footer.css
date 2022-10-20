@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montaga&family=Montserrat&display=swap');
+
+.footerbody {
+    font-family: 'Montaga', serif;
+    background-color: rgb(12, 12, 12);
+}
+
+.footerbody > div {
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    justify-content:flex-end;
+}
+
+.footerbody > div ul {
+    width:15%;
+    margin:30px;
+}
+
+
+footer {
+    width: 100vw;
+    color: white;
+    font-size: 20px;
+    line-height: 55px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Montaga;
+    margin-top: 150px;
+}
+
+.foot {
+    line-height: 30px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0)
+}
+
+.abonne {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    margin-right: 90px;
+}
+
+.abonnetext {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 40px;
+    color: aliceblue;
+    background-color: rgb(25,25,25);
+    padding: 20px;
+    margin-right: 50px;
+}
+
+section {
+    color: aliceblue;
+}
+
+ul.end {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.abonnetext:hover {
+    transition: 1s;
+    background-color: rgb(225, 220, 231);
+    color: rgb(0, 0, 0);
+}
+

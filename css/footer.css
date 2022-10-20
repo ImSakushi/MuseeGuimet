@@ -5,20 +5,34 @@
     background-color: rgb(12, 12, 12);
 }
 
+.footerbody > div {
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    justify-content:flex-end;
+}
+
+.footerbody > div ul {
+    width:15%;
+    margin:30px;
+}
+
+
 footer {
+    width: 100vw;
     color: white;
     font-size: 20px;
-    line-height: 3cm;
+    line-height: 55px;
     display: flex;
-    justify-content: first baseline;
     justify-content: space-around;
     font-family: Montaga;
+    margin-top: 150px;
 }
 
 .foot {
-    line-height: 8mm;
+    line-height: 30px;
     font-size: 20px;
-    background-color: rgb(12, 12, 12)
+    background-color: rgb(0, 0, 0)
 }
 
 .abonne {
@@ -35,17 +49,7 @@ footer {
     color: aliceblue;
     background-color: rgb(25,25,25);
     padding: 20px;
-    margin-left: 285px;
-}
-
-div.bordure {
-    border-bottom: 1px solid rgb(252, 251, 251);
-}
-
-.fin {
-    color: aliceblue;
-    display: flex;
-    justify-content: center
+    margin-right: 50px;
 }
 
 section {
@@ -53,7 +57,7 @@ section {
 }
 
 ul.end {
-    margin-top: 20px;
+    margin: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,6 +66,6 @@ ul.end {
 .abonnetext:hover {
     transition: 1s;
     background-color: rgb(225, 220, 231);
-    color: rgb(25,25,25);
+    color: rgb(0, 0, 0);
 }
 
