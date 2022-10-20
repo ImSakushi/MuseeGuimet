@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.dispo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    background-color: #201D1D;
+    border-radius: 5%;
+}
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.imagetitre {
+    display: inline;
+    font-size: 25px;
+    margin-left: 80px;
+}
+.card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.metro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0px;
+    margin-top: 100px;
+} 
+
+.imagefil {
+    width: 20%;
+}
+
+.imagemetro {
+    width: 40%;
+}
+
+a {
+    color: rgb(183, 161, 161);
+}
+
+h2.dispo-titre {
+    color: #F3E6D1;
+    font-size: 50px;
+}
+
+.ouvert {
+    color: #F3E6D1;
+}
+
+.ferme {
+    color: #EA5A5A;
+}
+
+.decouvrir {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.adresse {
+    color: #F3E6D1;
+    line-height: 30px;
+}
+
+.textemetro {
+    color: #F3E6D1;
+    font-size: 5vw;
+    padding-right: 00px;
+}
