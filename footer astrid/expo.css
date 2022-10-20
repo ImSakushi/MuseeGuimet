@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+h2 {
+    color: #F3E6D1;
+    font-size: 56px;
+    margin-right: 150px;
+}
+
+.carte {
+    color: aliceblue;
+    font-size: 26px;
+}
+
+.trait {
+    position: absolute;
+    left: 780;
+    top: 20;
+    
+}
+
+.titre {
+    color: aliceblue;
+    font: size 12px; 
+    word-spacing: 10px;
+    line-height: 20px;
+    
+
+
+}
+
+.menu {
+    display:flex;
+    align-items:center;
+
+}
+.musee { 
+    position: absolute;
+    top: 1500px;
+    left: 56px;
+    
+}
+.tadj{ 
+    position: absolute;
+    top: 1700px;
+    left: 730px;
+}
+.venez{ 
+    font-size: 55px;
+    position: absolute;
+    top: 1900px;
+    left: 80px;
+}
+.tre{
+    position: absolute ;
+    top: 1100px;
+    left: 730px;
+}
+.fai{ 
+    position: absolute;
+    left: 370px;
+    top: 2300px;
+
+}
