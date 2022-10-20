@@ -1,0 +1,60 @@
+body {
+    font-size: 14px;
+    background-color: black;
+  }
+
+.bloc {
+
+  display: flex; 
+  gap: 10%
+  
+}
+
+  .pv {
+    width: 872px;
+    color: rgba(243,230,209,1);
+    font-family: Baskervville;
+    font-weight: Regular;
+    font-size: 96px;
+    opacity: 1;
+    text-align: center;
+    margin-bottom: 130px;
+  }
+
+.vg {
+
+  width: 319px;
+  height: 557px;
+  background: url("../images/visites_guidees.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+
+}
+
+.ac {
+
+  width: 319px;
+  height: 557px;
+  background: url("../images/accessibilite.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.da {
+
+  width: 319px;
+  height: 557px;
+  background: url("../images/devenir_adherent.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+
+}
