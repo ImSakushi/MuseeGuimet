@@ -15,10 +15,15 @@ nav ul {
   }
     
 
-  li a {
+li a.entete {
     color: black;
     text-decoration: none;
   }
+
+a.abonnetext {
+    color:white;
+    text-decoration: none;
+}
 
 .menu {
     display:flex;
