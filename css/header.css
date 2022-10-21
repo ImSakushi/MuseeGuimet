@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .header  {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color:black;
     font-family:"Montserrat";
     font-size:20px;
@@ -11,7 +11,7 @@
 .header nav ul {
     display: flex;
     
-  }
+}
 
 .header .menu {
     display:flex;
@@ -54,6 +54,7 @@
 }
 
 .header .titre h1 {
+    display: block;
     font-family:"DIN Condensed";
     font-size: 110px;
     background: rgb(0, 0, 0);
@@ -91,8 +92,8 @@
     position: relative;
     text-align: center;
     
-  }
-  
+}
+
 .header .texte_centrer {
     position: absolute;
     top: 30%;
@@ -105,6 +106,7 @@
         left: 0;
         right: 0;
         transform: translate(0%, -50%);
+
     }
     .header .titre { 
         display: block;
@@ -138,9 +140,15 @@
     text-decoration: none;
     transition: all 0.25s ease-in-out;
 }
-  
+
 .header .button:hover {
     background:rgb(226,174,72);
     transform: scale(1.1);
 }
 
+@media (max-width:1024px){
+    .header .button{
+        padding: 0px 15px;
+        font-size: 12px;
+    }
+}

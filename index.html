@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/styleblog.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="mise_en_commun/expo.css" />
+    <link href="mise_en_commun/preparez_votre_visite.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montaga&display=swap" rel="stylesheet" />
 </head>
 <body>
     <header class="header">
@@ -19,29 +25,85 @@
                 <nav class="navigation">
                     <ul>
                         <li>Accueil</li>
-                        <li>EXPOSITIONS</li>
-                        <li>PUBLICATIONS</li>
-                        <li>ÉVENEMENTS</li>
+                        <li>Expositions</li>
+                        <li>Publications</li>
+                        <li>Événements</li>
                     </ul>
                 </nav>
             </div>
             <section class="sectionbutton">
                 <a href="#" class="button">BILLETERIE</a>
             </section>
+            <div class="burger">
+                Menu
+            </div>
         </nav>
-        
+
         <div class="contenant">
-            <img class="fond" src="images/fond.png"> 
+            <img class="fond" src="images/fond.png">
             <div class="texte_centrer">
                 <div class="titre">
-                    <h1>MUSÉE GUIMET
-                    <small>Le musée des arts asiatiques</small>
+                    <h1>
+                        <span>MUSÉE GUIMET
+                        </span>
+                        <br>
+                        <small>Le musée des arts asiatiques</small>
                     </h1>
-                </div>  
+                </div>
             </div>
         </div>
     </header>
     <main>
+
+
+        <section class="expo">
+            <h2>Exposition du <br> moment </h2>
+            <img src="images/trait1.png" alt="trait1doré" class="trait">
+            <img width="100%" src="images/Yang-Jiechang-Tale-of-the-11th-day_panneau6-2011 1.png" alt="oeuvre en long"
+                class="oeuvre">
+            <div class="carte">
+                <ul>
+                    <li>
+                        Carte blanche à Yang Jiechang
+                    </li>
+                </ul>
+                <ul>
+                    <li class="date">
+                        Du 26/10/2022 au 06/02/2023
+                    </li>
+                </ul>
+            </div>
+            <div class="menu">
+                <img src="images/Jiechang Yang NS 2.png" alt="portrait de Jiechang Yang" class="portrait">
+                <div class="titre">
+                    <ul>
+                        <p>
+                            Découvrez l’exposition du talentueux Yang Jiechang,<br> mélant une magnifique peinture de soie
+                            de 18
+                            mètres de <br>
+                            long à une série de 11 vases de porcelaine.
+                        </p>
+                    </ul>
+                </div>
+            </div>
+            <div class="tre">
+                <img width=500 src="images/trait2.png" alt="trait2doré">
+            </div>
+            <article class="rest">
+                <div class="musee">
+                    <div class="col-1">
+                        <img src="images/Musée-national-des-arts-asiatiques-Guimet-Bibliothèque-historique-|-630x405-|-©-MNAAG-Paris-photo-Vincent-Leroux.jpeg"
+                            alt=" " class="museeenfant">
+                        <p class="venez">Venez vous immerger dans <br>notre univers</p>
+                    </div>
+                    <div class="col-2">
+                        <img src=images/Tadjikistan-au-pays-des-fleuves-d-or.jpeg alt="" class="tadj">
+                    </div>                 
+                </div>
+            
+            <img src="images/trait3.png" alt="" class="fai">
+        </section>
+
         <div>
             <h2 class="dispo-titre">Disponibilités</h2>
         </div>
@@ -53,7 +115,8 @@
                 </div>
                 <div class="dispo">
                     <p class="ouvert">OUVERT</p>
-                    <p class="adresse">6, place d'Iéna, 75116 Paris<br>Horaires : Tous les jours sauf le mardi de 10h à 18h.
+                    <p class="adresse">6, place d'Iéna, 75116 Paris<br>Horaires : Tous les jours sauf le mardi de 10h à
+                        18h.
                     </p>
                     <div class="decouvrir">
                         <a href="/">Découvrir</a>
@@ -70,7 +133,8 @@
                 </div>
                 <div class="dispo">
                     <p class="ouvert">OUVERT</p>
-                    <p class="adresse">19, avenue d'Iéna, 75116 Paris<br>Horaires : Tous les jours sauf le mardi de 10h à
+                    <p class="adresse">19, avenue d'Iéna, 75116 Paris<br>Horaires : Tous les jours sauf le mardi de 10h
+                        à
                         18h.</p>
                     <div class="decouvrir">
                         <a href="/">Découvrir</a>
@@ -101,36 +165,55 @@
             <h2 class="textemetro">Plan<br>Métro</h2>
             <img class="imagemetro" src="images/plan.png" />
         </div>
-        <!-- blog --> 
+        <!-- blog -->
         <div>
             <h2 class="dispo-titre">Blog</h2>
         </div>
         <div class="all">
             <div class="card">
                 <div class="imagetitre">
-                    <img src="images/asie.png" class="image" alt="Un été en Asie"/>
+                    <img src="images/asie.png" class="image" alt="Un été en Asie" />
                 </div>
                 <div class="dispo">
                     <p class="ouvert">L’ÉTÉ CULTUREL</p>
-                    <p class="adresse">Le projet du MNAAG « Un été en Asie » s’inscrit <br>dans la volonté du musée d’aller à la rencontre des <br> publics tout au long de l’année.</p>
+                    <p class="adresse">Le projet du MNAAG « Un été en Asie » s’inscrit <br>dans la volonté du musée
+                        d’aller à la rencontre des <br> publics tout au long de l’année.</p>
                 </div>
             </div>
-            <img class ="imagefil" src="images/fil1.png"/>
+            <img class="imagefil" src="images/fil1.png" />
             <div class="card">
                 <div class="imagetitre">
-                    <img src="images/MNAAG.png" class="image" alt="JOSEPH"/>
+                    <img src="images/MNAAG.png" class="image" alt="JOSEPH" />
                 </div>
                 <div class="dispo">
                     <p class="ouvert">VIDÉO – UN DESTIN : JOSEPH ET RIA HACKIN</p>
-                    <p class="adresse">Découvrez avec Nicolas Engel, Conservateur de la <br>section Afghanistan, le destin de Joseph et Ria <br> Hackin, un couple d’archéologues dont les noms sont <br>indissociables de ceux de Bamiyan et de Begram.</p>
+                    <p class="adresse">Découvrez avec Nicolas Engel, Conservateur de la <br>section Afghanistan, le
+                        destin de Joseph et Ria <br> Hackin, un couple d’archéologues dont les noms sont
+                        <br>indissociables de ceux de Bamiyan et de Begram.</p>
                     <div class="decouvrir">
                         <a href="/">Découvrir</a>
                     </div>
                 </div>
             </div>
         </div>
+
+        <head>
+            <link href="mise_en_commun/preparer_votre_visite.css" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css?family=Montaga&display=swap" rel="stylesheet" />
+        </head>
+
+        <body>
+            <h2 class="pv">Préparez votre visite </h2>
+            <ul class="bloc">
+                <li class="vg"> </li>
+                <li class="ac"> </li>
+                <li class="da"> </li>
+            </ul>
+        </body>
+
     </main>
-    
 
     <div class="footerbody">
         <hr>
@@ -188,4 +271,5 @@
         </section>
     </div>
 </body>
+
 </html>

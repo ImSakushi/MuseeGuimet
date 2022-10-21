@@ -1,0 +1,120 @@
+.expo {
+    font-family: montaga;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    font-weight: 40;
+}
+
+@media (max-width:1024px) {
+    .h2 {
+        font-size: 16px;
+    }
+
+}
+
+h2 {
+    color: #F3E6D1;
+    font-size: 66px;
+    margin-left: 70px;
+    font-weight: lighter;
+}
+
+.carte {
+    color: aliceblue;
+    font-size: 26px;
+    margin-top: 56px;
+}
+
+.trait {
+    position: absolute;
+    top: 5px;
+    right: 29px;
+
+
+}
+
+.titre {
+    color: aliceblue;
+    font-size: 20px;
+    word-spacing: 10px;
+    line-height: 20px;
+    margin-left: 20px;
+
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.musee {
+    display: flex;
+
+}
+
+.museeenfant {
+    justify-content: left;
+    margin-left: 50px;
+}
+
+.col-1 {
+    text-align: center;
+}
+
+.col-1 p {
+    margin-top: 50px;
+}
+
+.col-2 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.col-2 img {
+    margin: 300px 0 0 20px;
+}
+
+.venez {
+    font-size: 40px;
+    padding-left: 50px;
+    font-weight: 20;
+}
+
+.tre {
+    display: flex;
+    justify-content: right;
+    padding-right: 50px;
+}
+
+.fai {
+    margin-left: 400px;
+    padding-top: 120px;
+
+}
+
+.date {
+
+    font-size: 20px;
+    margin-left: 950px;
+    margin-top: 6px;
+}
+
+.text {
+    display: flex;
+    margin-top: 600px;
+    padding-bottom: px;
+}
+
+.oeuvre {
+    margin-top: 90px;
+}
+
+.portrait {
+    margin-left: 50px;
+    margin-top: 20px;
+}

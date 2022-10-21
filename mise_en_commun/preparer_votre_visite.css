@@ -6,8 +6,17 @@ body {
 .bloc {
 
   display: flex; 
-  gap: 10%
-  
+  gap: 10%;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+@media(max-width:1024){
+  .bloc{
+    justify-content: center;
+    display: block;
+    justify-content: space-around;
+  }
 }
 
   .pv {
