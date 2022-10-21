@@ -100,7 +100,8 @@ h2.dispo-titre {
 @media(max-width:1024px){
     .dispo-titre{
         max-width: 100%;
-
+    }
+}
 .ouvert {
     color: #F3E6D1;
 }
