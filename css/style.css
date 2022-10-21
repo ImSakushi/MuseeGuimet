@@ -21,6 +21,8 @@ body {
     margin-left: 15vh;
 }
 
+
+
 .imagetitre {
     display: flex;
     justify-content: center;
@@ -28,6 +30,10 @@ body {
     font-size: 25px;
     margin-left: 4vmax;
 }
+
+
+
+
 .card {
     display: flex;
     justify-content: center;
