@@ -17,6 +17,10 @@
     margin:30px;
 }
 
+li a.footerlien{
+    color: white;
+    text-decoration: none;
+  }
 
 footer {
     width: 100vw;
