@@ -71,6 +71,7 @@ ul.end {
 
 @media(max-width:1024px){
     footer{
+        width: 100%;
         display: block;
         text-align:center
     }
@@ -91,3 +92,4 @@ ul.end {
     display: block;
     }
 }
+

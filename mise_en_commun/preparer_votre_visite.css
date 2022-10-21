@@ -23,11 +23,17 @@ body {
     color: rgba(243,230,209,1);
     font-family: Baskervville;
     font-weight: Regular;
-    font-size: 96px;
+    font-size: 80px;
     opacity: 1;
     text-align: center;
     margin-bottom: 130px;
   }
+
+@media(max-width:1024){
+  .pv {
+    font-size: 10px;
+  }
+}
 
 .vg {
 

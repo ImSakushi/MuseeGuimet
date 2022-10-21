@@ -75,6 +75,12 @@ h2 {
     margin-top: 50px;
 }
 
+@media (max-width:1024px){
+    .expo .col-1 {
+        max-width: 95%;
+        margin: 0;
+    }
+}
 .col-2 {
     display: flex;
     flex-direction: column;
@@ -87,9 +93,14 @@ h2 {
     margin: 300px 0 0 20px;
 }
 
+
 @media (max-width:1024px){
     .expo .musee{
         display: block;
+    }
+    .expo .col-2 {
+        max-width: 100%;
+        margin: 0;
     }
 }
 
@@ -149,6 +160,7 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 130px;
+    font-size: 10px;
 }
 
 
